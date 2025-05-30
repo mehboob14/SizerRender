@@ -1,0 +1,8 @@
+node_modules/
+measurementsenv/
+.env
+*.log
+__pycache__/
+.DS_Store
+*.pyc
+"node_modules/" 
