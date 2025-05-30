@@ -13,7 +13,7 @@ llm_bp = Blueprint('llm_bp', __name__)
 api = os.environ.get("OPENAI_API_KEY")
 if not api:
     raise EnvironmentError("OPENAI_API_KEY not found in environment variables")
-
+print(api)
 client = OpenAI(api_key=api)
 
 
